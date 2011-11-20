@@ -1,20 +1,20 @@
-Name:               Haskell-Package
+Name:               yow2011
 Version:            0.0.1
 License:            BSD3
 License-File:       LICENSE
 Author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
 Maintainer:         Tony Morris
 Copyright:          Tony Morris
-Synopsis:           A skeleton for creating haskell packages
+Synopsis:           Material for the Introduction to Pure Functional Programming Course at YOW! 2011 conference
 Category:           Development
-Description:        A skeleton for creating haskell packages
-Homepage:           https://github.com/tonymorris/haskell-package
+Description:        Material for the Introduction to Pure Functional Programming Course at YOW! 2011 conference
+Homepage:           https://github.com/tonymorris/yow2011
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
 Source-Repository   head
   Type:             git
-  Location:         git@github.com:tonymorris/haskell-package.git
+  Location:         git@github.com:tonymorris/yow2011.git
 
 Flag                small_base
   Description:      Choose the new, split-up base package.
