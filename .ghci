@@ -1,7 +1,7 @@
 :set -isrc
 :m + Test.QuickCheck
-:l M
-:m + M
+:l L
+:m + L
 :set prompt ">> "
 :set -Wall
 

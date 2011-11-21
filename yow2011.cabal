@@ -6,7 +6,7 @@ Author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
 Maintainer:         Tony Morris
 Copyright:          Tony Morris
 Synopsis:           Material for the Introduction to Pure Functional Programming Course at YOW! 2011 conference
-Category:           Development
+Category:           Education
 Description:        Material for the Introduction to Pure Functional Programming Course at YOW! 2011 conference
 Homepage:           https://github.com/tonymorris/yow2011
 Cabal-Version:      >= 1.6

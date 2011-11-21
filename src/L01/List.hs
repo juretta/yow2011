@@ -12,7 +12,6 @@
 module L01.List where
 
 import Prelude hiding (sum, length, map, filter, maximum, reverse)
-import Test.QuickCheck
 
 -- BEGIN Helper functions and data types
 

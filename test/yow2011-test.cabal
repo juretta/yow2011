@@ -1,23 +1,23 @@
-Name:               Haskell-Package-Test
+Name:               yow2011-test
 Version:            0.0.1
 Author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
 Maintainer:         Tony Morris
 Copyright:          Tony Morris
-Synopsis:           A skeleton for testing haskell packages
-Category:           Development
-Description:        A skeleton for testing haskell packages
-Homepage:           https://github.com/tonymorris/haskell-package
+Synopsis:           Tests for the material for the Introduction to Pure Functional Programming Course at YOW! 2011 conference
+Category:           Education
+Description:        Tests for the material for the Introduction to Pure Functional Programming Course at YOW! 2011 conference
+Homepage:           https://github.com/tonymorris/yow2011
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
 
 Source-Repository   head
   Type:             git
-  Location:         git@github.com:tonymorris/haskell-package.git
+  Location:         git@github.com:tonymorris/yow2011.git
 
 Flag                small_base
   Description:      Choose the new, split-up base package.
 
-Executable          package-test
+Executable          yow2011-test
   Hs-Source-Dirs:  
                     ../src src
 
