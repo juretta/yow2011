@@ -57,10 +57,6 @@ sum = error "todo"
 
 -- Exercise 3
 -- Relative Difficulty: 2
--- Correctness: 2.5 marks
--- Performance: 1 mark
--- Elegance: 0.5 marks
--- Total: 4
 length :: List a -> Int
 length = error "todo"
 
@@ -76,19 +72,11 @@ filter = error "todo"
 
 -- Exercise 6
 -- Relative Difficulty: 5
--- Correctness: 4.5 marks
--- Performance: 1.5 marks
--- Elegance: 1 mark
--- Total: 7
 append :: List a -> List a -> List a
 append = error "todo"
 
 -- Exercise 7
 -- Relative Difficulty: 5
--- Correctness: 4.5 marks
--- Performance: 1.5 marks
--- Elegance: 1 mark
--- Total: 7
 flatten :: List (List a) -> List a
 flatten = error "todo"
 
@@ -108,5 +96,4 @@ reverse :: List a -> List a
 reverse = error "todo"
 
 -- END Exercises
-
 
