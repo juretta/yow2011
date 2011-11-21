@@ -11,6 +11,7 @@ Description:        Material for the Introduction to Pure Functional Programming
 Homepage:           https://github.com/tonymorris/yow2011
 Cabal-Version:      >= 1.6
 Build-Type:         Simple
+Extra-Source-Files: README.md
 
 Source-Repository   head
   Type:             git
