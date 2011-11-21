@@ -29,6 +29,7 @@ Executable          yow2011-test
                     -Wall
                     -fhpc
                     -fwarn-tabs
+                    -fno-warn-orphans
   
   Build-Depends:  
                    base < 5 && >= 3

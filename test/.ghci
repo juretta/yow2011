@@ -1,4 +1,5 @@
 :set -i../src -isrc
+:set -fno-warn-orphans
 :m + Test.QuickCheck
 :l Main
 :set prompt "test>> "
