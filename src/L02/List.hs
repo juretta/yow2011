@@ -48,52 +48,53 @@ reduceLeft f (h :| t) = foldLeft f h t
 -- Exercise 1
 -- Relative Difficulty: 1
 headOr :: List a -> a -> a
-headOr = error "todo"
+headOr Nil a    = a
+headOr (h:|_) _ = h
 
 -- Exercise 2
 -- Relative Difficulty: 2
 sum :: List Int -> Int
-sum = error "todo"
+sum = foldLeft (+) 0
 
 -- Exercise 3
 -- Relative Difficulty: 2
 length :: List a -> Int
-length = error "todo"
+length = foldLeft (const . succ) 0
 
 -- Exercise 4
 -- Relative Difficulty: 5
 map :: (a -> b) -> List a -> List b
-map = error "todo"
+map f = foldRight (\a b -> f a :| b) Nil
 
 -- Exercise 5
 -- Relative Difficulty: 5
 filter :: (a -> Bool) -> List a -> List a
-filter = error "todo"
+filter f = foldRight (\a -> if f a then (a:|) else id) Nil
 
 -- Exercise 6
 -- Relative Difficulty: 5
 append :: List a -> List a -> List a
-append = error "todo"
+append = flip (foldRight (:|))
 
 -- Exercise 7
 -- Relative Difficulty: 5
 flatten :: List (List a) -> List a
-flatten = error "todo"
+flatten = foldRight append Nil
 
 -- Exercise 8
 -- Relative Difficulty: 7
 flatMap :: (a -> List b) -> List a -> List b
-flatMap = error "todo"
+flatMap f = flatten . map f
 
 -- Exercise 9
 -- Relative Difficulty: 8
 maximum :: List Int -> Int
-maximum = error "todo"
+maximum = reduceLeft max
 
 -- Exercise 10
 -- Relative Difficulty: 10
 reverse :: List a -> List a
-reverse = error "todo"
+reverse = foldLeft (flip (:|)) Nil
 
 -- END Exercises
 
