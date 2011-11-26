@@ -1,7 +1,7 @@
 module L
 (
-  module L01.List
+  module L02.List
 ) where
 
-import L01.List
+import L02.List
 

@@ -1,9 +1,9 @@
-module L01.List.Tests where
+module L02.List.Tests where
 
 import Prelude hiding (sum, length, map, filter, maximum, reverse)
 import Test.Framework
 import Test.Framework.Providers.QuickCheck2 (testProperty)
-import L01.List
+import L02.List
 import Test.QuickCheck
 import Test.QuickCheck.Function
 

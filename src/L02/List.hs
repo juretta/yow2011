@@ -3,13 +3,13 @@
 --   Replace the function bodies (error "todo") with an appropriate solution.
 -- + These exercises may be done in any order, however:
 --   Exercises are generally increasing in difficulty, though some people may find later exercise easier.
---   You will find the tests in the `tests` directory under the `L01.List.Tests` module.
+--   You will find the tests in the `tests` directory under the `L02.List.Tests` module.
 -- + Note the existence of the library function max :: Int -> Int -> Int which will help you with Exercise 9.
 -- + Bonus for using the provided functions or for using one exercise solution to help solve another.
 -- + Approach with your best available intuition; just dive in and do what you can!
 
 
-module L01.List where
+module L02.List where
 
 import Prelude hiding (sum, length, map, filter, maximum, reverse)
 

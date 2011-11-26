@@ -32,4 +32,6 @@ Library
 
   Exposed-Modules:
                     L
+                    L02.List
+
 
