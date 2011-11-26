@@ -1,5 +1,6 @@
 module Main where
 
+import qualified L01.Validation.Tests
 import qualified L02.List.Tests
 import Test.Framework
 
@@ -14,7 +15,8 @@ tests =
   [
     testGroup "Tests"
       [
-        L02.List.Tests.test
+        L01.Validation.Tests.test
+      , L02.List.Tests.test
       ]
   ]
 
