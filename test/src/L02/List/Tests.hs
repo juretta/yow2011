@@ -19,27 +19,27 @@ main =
 test :: 
   Test
 test =
-    testGroup "List"
-      [
-        testProperty "headOr defaults with Nil" prop_headOr_Nil
-      , testProperty "headOr uses head with non-empty" prop_headOr_Cons
-      , testProperty "sum reduces to zero with subtraction" prop_sum
-      , testProperty "length reduces to zero with subtraction" prop_length
-      , testProperty "map obeys law of identity" prop_map_identity
-      , testProperty "map obeys law of composition" prop_map_composition
-      , testProperty "filter leaves only valid values" prop_filter
-      , testProperty "append produces a list with the sum of the lengths" prop_append
-      , testProperty "flatten sums the lengths" prop_flatten
-      , testProperty "flatMap obeys law of left identity" prop_flatMap_left_identity
-      , testProperty "flatMap obeys law of right identity" prop_flatMap_right_identity
-      , testProperty "flatMap obeys law of associativity" prop_flatMap_associativity
-      , testProperty "flatMap with id flattens" prop_flatMap_id_flattens
-      , testProperty "flatMap obeys functor relationship" prop_flatMap_functor
-      , testProperty "maximum is greater or equal to other elements" prop_maximum
-      , testProperty "appending maximums is equal to maximum of appended" prop_maximum_append
-      , testProperty "reverse with single value" prop_reverse_single_value
-      , testProperty "appending reverse is equal to reversing appended" prop_reverse_append
-      ]
+  testGroup "List"
+    [
+      testProperty "headOr defaults with Nil" prop_headOr_Nil
+    , testProperty "headOr uses head with non-empty" prop_headOr_Cons
+    , testProperty "sum reduces to zero with subtraction" prop_sum
+    , testProperty "length reduces to zero with subtraction" prop_length
+    , testProperty "map obeys law of identity" prop_map_identity
+    , testProperty "map obeys law of composition" prop_map_composition
+    , testProperty "filter leaves only valid values" prop_filter
+    , testProperty "append produces a list with the sum of the lengths" prop_append
+    , testProperty "flatten sums the lengths" prop_flatten
+    , testProperty "flatMap obeys law of left identity" prop_flatMap_left_identity
+    , testProperty "flatMap obeys law of right identity" prop_flatMap_right_identity
+    , testProperty "flatMap obeys law of associativity" prop_flatMap_associativity
+    , testProperty "flatMap with id flattens" prop_flatMap_id_flattens
+    , testProperty "flatMap obeys functor relationship" prop_flatMap_functor
+    , testProperty "maximum is greater or equal to other elements" prop_maximum
+    , testProperty "appending maximums is equal to maximum of appended" prop_maximum_append
+    , testProperty "reverse with single value" prop_reverse_single_value
+    , testProperty "appending reverse is equal to reversing appended" prop_reverse_append
+    ]
 
 prop_headOr_Nil ::
   Int
