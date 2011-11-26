@@ -32,6 +32,8 @@ Library
 
   Exposed-Modules:
                     L
+                    L01.Optional
+                    L01.Validation
                     L02.List
 
 
